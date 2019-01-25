@@ -6,7 +6,7 @@ const int sensor = 14;//use photosensor as example, intput at pin14(analog)
 const int usr_btn = 6;
 const int SAMPLE_RATE = 1000;
 String data;
-char* devName = "LumosBLE-";
+char* devName = "LumosBLE-B";
 
 char* serviceUUID = "00001802-0000-1000-8000-00805f9b34fb";
 LBLEUuid uuid(serviceUUID);
